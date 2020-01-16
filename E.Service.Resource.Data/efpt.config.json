@@ -1,0 +1,442 @@
+﻿{
+   "ContextClassName": "EservicesdbContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "DoNotCombineNamespace": false,
+   "IdReplace": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "ProjectRootNamespace": "E.Service.Resource.Data",
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AspNetGroups]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AspNetRoleGroup]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AspNetRoles]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AspNetUserClaims]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AspNetUserGroup]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AspNetUserRoles]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[AspNetUsers]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[asset_borrow]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[asset_brand_series]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[asset_brands]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[asset_main_group_types]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[asset_request_details]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[asset_requests]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[asset_sub_group_types]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[asset_types]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[assets]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[borrow_request_details]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[borrow_requests]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[budget]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[budget_role]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[car_budget_detail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[car_budget_detail_status]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[car_drivers]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[car_pools]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[car_request_budget]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[car_request_coordinate]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[car_request_coordinate_detail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[car_request_coordinate_status]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[car_requests]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[ChangeLog]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[image]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[jabatan]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[jabatan_child]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[jenis]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[jenis_role]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[Log]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[meeting_budget]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[meeting_request_accountability]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[meeting_request_accountability_files]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[meeting_request_accountability_flow]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[meeting_request_budgets]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[meeting_request_flow]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[meeting_request_time]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[meeting_requests]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[meeting_rooms]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[meeting_rooms_category]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[meeting_types]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[office_location_regions]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[office_location_type]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[office_locations]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[office_rooms]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[order_item]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[order_item_inventory_it]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[order_item_stock]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[order_reload]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[order_reload_accountability]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[order_reload_accountability_image]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[order_reload_detail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[order_request]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[order_request_accountability]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[order_request_accountability_image]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[order_request_image]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[order_requests_detail]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[repair_item]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[repair_item_request_accountablitiy_image]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[repair_item_request_accountablity]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[repair_item_request_image]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[repair_item_requests]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RequestActionHistory]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[RequestFlowUrl]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[stock_transaction]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[stock_transaction_status]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[stocks]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[target_user]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[travel_cities]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[travel_hotel]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[travel_hotel_requests]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[travel_outbond_category]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[travel_request]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[travel_request_accountability]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[travel_request_accountability_files]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[travel_transportation_name]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[travel_transportation_request_details]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[travel_transportation_requests]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[travel_transportation_type]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[dbo].[users]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[WORKFLOW].[Actions]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[WORKFLOW].[Actiontarget]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[WORKFLOW].[Actiontype]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[WORKFLOW].[Activity]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[WORKFLOW].[Activitytarget]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[WORKFLOW].[Activitytype]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[WORKFLOW].[Process]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[WORKFLOW].[Processadmin]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[WORKFLOW].[Requestaction]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[WORKFLOW].[Requestdata]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[WORKFLOW].[RequestFlow]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[WORKFLOW].[Requestnote]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[WORKFLOW].[Requeststakeholder]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[WORKFLOW].[State]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[WORKFLOW].[Statetype]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[WORKFLOW].[Status]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[WORKFLOW].[Target]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[WORKFLOW].[Transition]"
+      },
+      {
+         "HasPrimaryKey": true,
+         "Name": "[WORKFLOW].[Transitionaction]"
+      }
+   ],
+   "UseDatabaseNames": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseSpatial": false
+}
