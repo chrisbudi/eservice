@@ -65,7 +65,7 @@ namespace E.Proc.Resource.Api.Service
                 Keterangan = m.Department.Keterangan,
                 Satker = m.Department.Satker,
                 kodePusatBiaya = m.MasterAkun.IdMasterAkun
-            }).Single(m => m.DepartemenId == id);
+            }).SingleOrDefault(m => m.DepartemenId == id);
             return repos;
         }
 

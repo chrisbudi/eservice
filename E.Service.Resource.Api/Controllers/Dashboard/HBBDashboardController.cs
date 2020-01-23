@@ -25,9 +25,42 @@ namespace E.Service.Resource.Api.Controllers.Dashboard
 
 
         [HttpPost("asset")]
-        public async Task<IActionResult> GetListMeetingDashboard(DateTime dateNow)
+        public async Task<IActionResult> GetListMeetingDashboard()
+        {   
+            var rooms = await dashboardService.GetListHBB();
+            return Ok(rooms);
+        }
+
+
+        [HttpPost("asset/year")]
+        public async Task<IActionResult> GetAssetYear()
         {
-            var rooms = await dashboardService.GetListHBB(dateNow);
+            var rooms = await dashboardService.GetListYear();
+            return Ok(rooms);
+        }
+
+
+
+        [HttpPost("asset/total")]
+        public async Task<IActionResult> GetAssetTotal(int year)
+        {
+            var rooms = await dashboardService.GetListTotal(year);
+            return Ok(rooms);
+        }
+
+
+        [HttpPost("asset/value")]
+        public async Task<IActionResult> GetAssetValue (int year)
+        {
+            var rooms = await dashboardService.GetListValue(year);
+            return Ok(rooms);
+        }
+
+
+        [HttpPost("asset/move")]
+        public async Task<IActionResult> GetAssetMove(int year)
+        {
+            var rooms = await dashboardService.GetListMove(year);
             return Ok(rooms);
         }
 

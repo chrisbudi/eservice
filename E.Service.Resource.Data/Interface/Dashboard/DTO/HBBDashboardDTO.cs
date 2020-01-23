@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -14,22 +15,24 @@ namespace E.Service.Resource.Data.Interface.Dashboard.DTO
         public int GoodEnough { get; set; }
         public int Good { get; set; }
 
-        public List<AssetData> ListAssetData { get; set; }
-        public List<AssetDataTotalValue> ListAssetDataTotalValue { get; set; }
-        public List<AssetDataTotalMoveValue> ListAssetDataTotalMoveValue { get; set; }
     }
+
 
     public class AssetData
     {
-        public string Year { get; set; }
+        public string Name { get; set; }
         public decimal Value { get; set; }
     }
 
+
+
     public class AssetDataTotalValue
     {
-        public string Month { get; set; }
+        public string Name { get; set; }
         public decimal Value { get; set; }
     }
+
+
 
     public class AssetDataTotalMoveValue
     {

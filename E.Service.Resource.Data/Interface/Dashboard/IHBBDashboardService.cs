@@ -10,6 +10,10 @@ namespace E.Service.Resource.Data.Interface.Dashboard
 {
     public interface IHBBDashboardService
     {
-        Task<IList<MeetingRequestDashboardDTO>> GetListHBB(DateTime dateTime);
+        Task<HBBDashboardDTO> GetListHBB();
+        Task<List<int>> GetListYear();
+        Task<List<AssetData>> GetListTotal(int year);
+        Task<List<AssetDataTotalValue>> GetListValue(int year);
+        Task<List<AssetDataTotalMoveValue>> GetListMove(int year);
     }
 }

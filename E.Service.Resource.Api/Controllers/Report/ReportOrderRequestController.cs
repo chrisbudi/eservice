@@ -37,8 +37,12 @@ namespace E.Service.Resource.Api.Controllers.Report
             {
                 if (request.SatuanKerjaId != null)
                 {
-                    var clientdata = await _epClient.Client.GetStringAsync("Department/" + request.SatuanKerjaId);
-                    request.SatuanKerjaName = (string)JObject.Parse(clientdata)["departemenNama"];
+                    if (request.SatuanKerjaId != "")
+                    {
+                        var clientdata = await _epClient.Client.GetStringAsync("Department/" + request.SatuanKerjaId + "/Report");
+                        if ((string)JObject.Parse(clientdata)["type"] == null && (string)JObject.Parse(clientdata)["type"] == "not found")
+                            request.SatuanKerjaName = (string)JObject.Parse(clientdata)["departemenNama"];
+                    }
                 }
             }
 

@@ -42,5 +42,17 @@ namespace E.Proc.Reource.APi.Controllers
                 return BadRequest(new { message = "Department not found " });
             return Ok(department);
         }
+
+
+
+        [HttpGet("{id}/Report")]
+        public IActionResult GetNotEmpty(int id)
+        {
+            var department = _departmentService.Get(id);
+
+            if (department == null)
+                return Ok(new { type = "not found", message = "Department not found " });
+            return Ok(department);
+        }
     }
 }

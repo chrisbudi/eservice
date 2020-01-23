@@ -36,8 +36,11 @@ namespace E.Service.Resource.Api.Controllers.Report
             {
                 foreach (var item in organization)
                 {
-                    var clientdata = await _epClient.Client.GetStringAsync("Department/" + item.SatuanKerjaId);
-                    item.SatuanKerja = (string)JObject.Parse(clientdata)["departemenNama"];
+                    if (item.SatuanKerjaId != 0)
+                    {
+                        var clientdata = await _epClient.Client.GetStringAsync("Department/" + item.SatuanKerjaId + "/Report");
+                        item.SatuanKerja = (string)JObject.Parse(clientdata)["departemenNama"];
+                    }
                 }
             }
 
